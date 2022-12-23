@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Makeup Artist Template">
+        <meta name="keywords" content="Makeup Artist, unica, creative, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Half n Half</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="css/mattings.css" type="text/css">
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script nonce="afdebd97-85f0-44ff-94cc-2f5c2cc51e37">
+                (function(w, d) {
+                        ! function(eK, eL, eM, eN) {
+                                eK.zarazData = eK.zarazData || {};
+                                eK.zarazData.executed = [];
+                                eK.zaraz = {
+                                        deferred: [],
+                                        listeners: []
+                                };
+                                eK.zaraz.q = [];
+                                eK.zaraz._f = function(eO) {
+                                        return function() {
+                                                var eP = Array.prototype.slice.call(arguments);
+                                                eK.zaraz.q.push({
+                                                        m: eO,
+                                                        a: eP
+                                                })
+                                        }
+                                };
+                                for (const eQ of ["track", "set", "debug"]) eK.zaraz[eQ] = eK.zaraz._f(eQ);
+                                eK.zaraz.init = () => {
+                                        var eR = eL.getElementsByTagName(eN)[0],
+                                                eS = eL.createElement(eN),
+                                                eT = eL.getElementsByTagName("title")[0];
+                                        eT && (eK.zarazData.t = eL.getElementsByTagName("title")[0].text);
+                                        eK.zarazData.x = Math.random();
+                                        eK.zarazData.w = eK.screen.width;
+                                        eK.zarazData.h = eK.screen.height;
+                                        eK.zarazData.j = eK.innerHeight;
+                                        eK.zarazData.e = eK.innerWidth;
+                                        eK.zarazData.l = eK.location.href;
+                                        eK.zarazData.r = eL.referrer;
+                                        eK.zarazData.k = eK.screen.colorDepth;
+                                        eK.zarazData.n = eL.characterSet;
+                                        eK.zarazData.o = (new Date).getTimezoneOffset();
+                                        if (eK.dataLayer)
+                                                for (const eX of Object.entries(Object.entries(dataLayer).reduce(((eY, eZ) => ({
+                                                                ...eY[1],
+                                                                ...eZ[1]
+                                                        }))))) zaraz.set(eX[0], eX[1], {
+                                                        scope: "page"
+                                                });
+                                        eK.zarazData.q = [];
+                                        for (; eK.zaraz.q.length;) {
+                                                const e_ = eK.zaraz.q.shift();
+                                                eK.zarazData.q.push(e_)
+                                        }
+                                        eS.defer = !0;
+                                        for (const fa of [localStorage, sessionStorage]) Object.keys(fa || {}).filter((fc => fc.startsWith("_zaraz_"))).forEach((fb => {
+                                                try {
+                                                        eK.zarazData["z_" + fb.slice(7)] = JSON.parse(fa.getItem(fb))
+                                                } catch {
+                                                        eK.zarazData["z_" + fb.slice(7)] = fa.getItem(fb)
+                                                }
+                                        }));
+                                        eS.referrerPolicy = "origin";
+                                        eS.src = "https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(eK.zarazData)));
+                                        eR.parentNode.insertBefore(eS, eR)
+                                };
+                                ["complete", "interactive"].includes(eL.readyState) ? zaraz.init() : eK.addEventListener("DOMContentLoaded", zaraz.init)
+                        }(w, d, 0, "script");
+                })(window, document);
+        </script>
+</head>
+
+<body>
+
+        <div id="preloder">
+                <div class="loader"></div>
+        </div>
+
+        <div class="offcanvas-menu-overlay"></div>
+        <div class="offcanvas-menu-wrapper">
+                <div class="offcanvas__search search-switch">
+                        <img src="img/icon/search.png" alt="">
+                </div>
+                <div class="offcanvas__logo">
+                        <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div id="mobile-menu-wrap"></div>
+                <div class="offcanvas__widget">
+                        <a href="#" class="primary-btn">Get a Quote</a>
+                </div>
+        </div>
+
+
+        <header class="header">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-lg-2">
+                                        <div class="header__logo">
+                                                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                                        </div>
+                                </div>
+                                <div class="col-lg-10">
+                                        <div class="header__options">
+                                                <nav class="header__menu mobile-menu">
+                                                        <ul>
+                                                                <li><a href="index.html">Home</a></li>
+                                                                <li class="active"><a href="giveaway.html">Giveaway</a></li>
+                                                                <li><a href="https://www.nykaa.com/brands/half-n-half/c/23863">Shop</a></li>
+                                                        </ul>
+                                                </nav>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="canvas__open"><i class="fa fa-bars"></i></div>
+                </div>
+        </header>
+
+
+        <div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb/contact-breadcrumb.jpg">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-lg-12">
+                                        <div class="breadcrumb__text">
+                                                <h2>Giveaway</h2>
+                                                <div class="breadcrumb__links">
+                                                        <a href="index.html">Home</a>
+                                                        <span>Giveaway</span>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+
+        <section class="contact spad">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                        <div class="contact__form">
+                                                <h2>Giveaway is complete!</h2>
+                                                <span>Winners will have received the Nykaa Giftcard over SMS or Email!</span>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+
+
+        <footer class="footer">
+                <div class="container">
+                        <div class="footer__content">
+                                <div class="row">
+                                        <div class="col-lg-12 text-center">
+                                                <div class="footer__logo">
+                                                        <a href="index.html"><img src="img/logo.png" alt=""></a>
+                                                </div>
+                                                <div class="footer__instagram__pic">
+                                                        <img src="img/instagram/insta-1.jpg" alt="">
+                                                        <img src="img/instagram/insta-2.jpg" alt="">
+                                                        <img src="img/instagram/insta-3.jpg" alt="">
+                                                        <img src="img/instagram/insta-4.jpg" alt="">
+                                                        <img src="img/instagram/insta-5.jpg" alt="">
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+
+
+
+        <div class="search-model">
+                <div class="h-100 d-flex align-items-center justify-content-center">
+                        <div class="search-close-switch">+</div>
+                        <form class="search-model-form">
+                                <input type="text" id="search-input" placeholder="Search here.....">
+                        </form>
+                </div>
+        </div>
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                        dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-23581568-13');
+        </script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"77a108fc2ee4f34f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body>
+
+</html>
